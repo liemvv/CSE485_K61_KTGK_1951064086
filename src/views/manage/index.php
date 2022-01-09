@@ -49,9 +49,8 @@
             <?php if (!empty($bloods)): ?>
                 <?php foreach ($bloods AS $blood) : ?>
                     <?php
-                    //khai báo 3 url xem, sửa, xóa
-                    $urlDetail =
-                        "index.php?controller=manage&action=detail&id=" . $blood['maduan'];
+                    //khai báo 2 url , sửa, xóa
+                    
                     $urlEdit =
                         "index.php?controller=manage&action=edit&id=" . $blood['maduan'];
                     $urlDelete =
